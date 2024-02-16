@@ -4,6 +4,8 @@
 **/Packages/
 
 **/software/*
+**/software/.analytics
+**/software/IDE.log
 !**/software/*
 **/software/*/*
 !**/software/*/
