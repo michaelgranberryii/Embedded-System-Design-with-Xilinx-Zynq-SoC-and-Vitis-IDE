@@ -1,0 +1,216 @@
+16:09:11 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/IDE.log'.
+16:10:35 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/temp_xsdb_launch_script.tcl
+16:10:35 INFO  : Registering command handlers for Vitis TCF services
+16:10:35 INFO  : Platform repository initialization has completed.
+16:10:37 INFO  : XSCT server has started successfully.
+16:10:37 INFO  : plnx-install-location is set to ''
+16:10:37 INFO  : Successfully done setting XSCT server connection channel  
+16:10:37 INFO  : Successfully done query RDI_DATADIR 
+16:10:37 INFO  : Successfully done setting workspace for the tool. 
+16:11:20 INFO  : Result from executing command 'getProjects': dual_channel_axi_gpio
+16:11:20 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:11:42 INFO  : Result from executing command 'getProjects': dual_channel_axi_gpio
+16:11:42 INFO  : Result from executing command 'getPlatforms': dual_channel_axi_gpio|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/dual_channel_axi_gpio.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:13:29 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/IDE.log'.
+16:13:29 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/temp_xsdb_launch_script.tcl
+16:13:31 INFO  : XSCT server has started successfully.
+16:13:31 INFO  : plnx-install-location is set to ''
+16:13:31 INFO  : Successfully done setting XSCT server connection channel  
+16:13:32 INFO  : Successfully done setting workspace for the tool. 
+16:13:32 INFO  : Successfully done query RDI_DATADIR 
+16:13:32 INFO  : Registering command handlers for Vitis TCF services
+16:13:33 INFO  : Platform repository initialization has completed.
+16:20:53 INFO  : Result from executing command 'getProjects': dual_channel_axi_gpio
+16:20:53 INFO  : Result from executing command 'getPlatforms': dual_channel_axi_gpio|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/dual_channel_axi_gpio.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:20:56 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:21:18 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:22:03 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:22:21 INFO  : XRT server has started successfully on port '4352'
+16:22:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:22 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+16:22:22 INFO  : 'jtag frequency' command is executed.
+16:22:22 INFO  : Context for 'APU' is selected.
+16:22:22 INFO  : System reset is completed.
+16:22:25 INFO  : 'after 3000' command is executed.
+16:22:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+16:22:26 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+16:22:26 INFO  : Context for 'APU' is selected.
+16:22:26 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa'.
+16:22:26 INFO  : 'configparams force-mem-access 1' command is executed.
+16:22:26 INFO  : Context for 'APU' is selected.
+16:22:26 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+16:22:27 INFO  : 'ps7_init' command is executed.
+16:22:27 INFO  : 'ps7_post_config' command is executed.
+16:22:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:22:27 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:22:27 INFO  : 'configparams force-mem-access 0' command is executed.
+16:22:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:22:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:22:27 INFO  : 'con' command is executed.
+16:22:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:22:27 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw_system/_ide/scripts/systemdebugger_dual_channel_axi_gpio_sw_system_standalone.tcl'
+16:23:21 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:23:30 INFO  : Disconnected from the channel tcfchan#4.
+16:23:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:23:31 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+16:23:31 INFO  : 'jtag frequency' command is executed.
+16:23:31 INFO  : Context for 'APU' is selected.
+16:23:31 INFO  : System reset is completed.
+16:23:34 INFO  : 'after 3000' command is executed.
+16:23:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+16:23:35 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+16:23:35 INFO  : Context for 'APU' is selected.
+16:23:35 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa'.
+16:23:35 INFO  : 'configparams force-mem-access 1' command is executed.
+16:23:35 INFO  : Context for 'APU' is selected.
+16:23:35 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+16:23:35 INFO  : 'ps7_init' command is executed.
+16:23:35 INFO  : 'ps7_post_config' command is executed.
+16:23:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:23:35 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:23:35 INFO  : 'configparams force-mem-access 0' command is executed.
+16:23:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:23:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:23:36 INFO  : 'con' command is executed.
+16:23:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:23:36 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw_system/_ide/scripts/systemdebugger_dual_channel_axi_gpio_sw_system_standalone.tcl'
+16:24:11 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:24:24 INFO  : Disconnected from the channel tcfchan#5.
+16:24:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:24:24 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+16:24:24 INFO  : 'jtag frequency' command is executed.
+16:24:24 INFO  : Context for 'APU' is selected.
+16:24:24 INFO  : System reset is completed.
+16:24:27 INFO  : 'after 3000' command is executed.
+16:24:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+16:24:28 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+16:24:28 INFO  : Context for 'APU' is selected.
+16:24:28 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa'.
+16:24:28 INFO  : 'configparams force-mem-access 1' command is executed.
+16:24:28 INFO  : Context for 'APU' is selected.
+16:24:28 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+16:24:29 INFO  : 'ps7_init' command is executed.
+16:24:29 INFO  : 'ps7_post_config' command is executed.
+16:24:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:24:29 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:24:29 INFO  : 'configparams force-mem-access 0' command is executed.
+16:24:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:24:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:24:29 INFO  : 'con' command is executed.
+16:24:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:24:29 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw_system/_ide/scripts/systemdebugger_dual_channel_axi_gpio_sw_system_standalone.tcl'
+16:25:19 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:25:27 INFO  : Checking for BSP changes to sync application flags for project 'dual_channel_axi_gpio_sw'...
+16:25:38 INFO  : Disconnected from the channel tcfchan#7.
+16:25:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+16:25:38 INFO  : 'jtag frequency' command is executed.
+16:25:38 INFO  : Context for 'APU' is selected.
+16:25:38 INFO  : System reset is completed.
+16:25:41 INFO  : 'after 3000' command is executed.
+16:25:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+16:25:42 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+16:25:42 INFO  : Context for 'APU' is selected.
+16:25:42 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa'.
+16:25:42 INFO  : 'configparams force-mem-access 1' command is executed.
+16:25:42 INFO  : Context for 'APU' is selected.
+16:25:42 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+16:25:43 INFO  : 'ps7_init' command is executed.
+16:25:43 INFO  : 'ps7_post_config' command is executed.
+16:25:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:25:43 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:25:43 INFO  : 'configparams force-mem-access 0' command is executed.
+16:25:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio/export/dual_channel_axi_gpio/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw/Debug/dual_channel_axi_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:25:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:25:43 INFO  : 'con' command is executed.
+16:25:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:25:43 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_axi_dual_channel/software/dual_channel_axi_gpio_sw_system/_ide/scripts/systemdebugger_dual_channel_axi_gpio_sw_system_standalone.tcl'
+16:27:53 INFO  : Disconnected from the channel tcfchan#9.

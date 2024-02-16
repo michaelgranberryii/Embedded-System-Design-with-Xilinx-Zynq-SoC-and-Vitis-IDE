@@ -1,0 +1,252 @@
+22:47:34 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/IDE.log'.
+22:47:52 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/temp_xsdb_launch_script.tcl
+22:47:52 INFO  : Registering command handlers for Vitis TCF services
+22:47:52 INFO  : Platform repository initialization has completed.
+22:47:54 INFO  : XSCT server has started successfully.
+22:47:54 INFO  : plnx-install-location is set to ''
+22:47:54 INFO  : Successfully done setting XSCT server connection channel  
+22:47:54 INFO  : Successfully done query RDI_DATADIR 
+22:47:54 INFO  : Successfully done setting workspace for the tool. 
+22:48:29 INFO  : Result from executing command 'getProjects': uartlite
+22:48:29 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:48:56 INFO  : Result from executing command 'getProjects': uartlite
+22:48:56 INFO  : Result from executing command 'getPlatforms': uartlite|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/uartlite.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:50:33 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+22:56:30 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+22:57:12 INFO  : XRT server has started successfully on port '4355'
+22:57:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:57:13 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+22:57:13 INFO  : 'jtag frequency' command is executed.
+22:57:13 INFO  : Context for 'APU' is selected.
+22:57:13 INFO  : System reset is completed.
+22:57:16 INFO  : 'after 3000' command is executed.
+22:57:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+22:57:18 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+22:57:18 INFO  : Context for 'APU' is selected.
+22:57:18 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa'.
+22:57:18 INFO  : 'configparams force-mem-access 1' command is executed.
+22:57:18 INFO  : Context for 'APU' is selected.
+22:57:18 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl' is done.
+22:57:18 INFO  : 'ps7_init' command is executed.
+22:57:18 INFO  : 'ps7_post_config' command is executed.
+22:57:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:57:18 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:57:18 INFO  : 'configparams force-mem-access 0' command is executed.
+22:57:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:57:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:57:18 INFO  : 'con' command is executed.
+22:57:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:57:18 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw_system/_ide/scripts/systemdebugger_uartlite_sw_system_standalone.tcl'
+22:57:52 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+23:00:23 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+23:00:41 INFO  : Disconnected from the channel tcfchan#4.
+23:00:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:00:41 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+23:00:41 INFO  : 'jtag frequency' command is executed.
+23:00:41 INFO  : Context for 'APU' is selected.
+23:00:41 INFO  : System reset is completed.
+23:00:44 INFO  : 'after 3000' command is executed.
+23:00:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+23:00:46 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+23:00:46 INFO  : Context for 'APU' is selected.
+23:00:46 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa'.
+23:00:46 INFO  : 'configparams force-mem-access 1' command is executed.
+23:00:46 INFO  : Context for 'APU' is selected.
+23:00:46 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl' is done.
+23:00:46 INFO  : 'ps7_init' command is executed.
+23:00:46 INFO  : 'ps7_post_config' command is executed.
+23:00:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:46 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:00:46 INFO  : 'configparams force-mem-access 0' command is executed.
+23:00:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:00:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:46 INFO  : 'con' command is executed.
+23:00:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:00:46 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw_system/_ide/scripts/systemdebugger_uartlite_sw_system_standalone.tcl'
+23:04:13 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+23:04:27 INFO  : Disconnected from the channel tcfchan#7.
+23:04:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:04:27 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+23:04:27 INFO  : 'jtag frequency' command is executed.
+23:04:27 INFO  : Context for 'APU' is selected.
+23:04:27 INFO  : System reset is completed.
+23:04:30 INFO  : 'after 3000' command is executed.
+23:04:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+23:04:31 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+23:04:31 INFO  : Context for 'APU' is selected.
+23:04:31 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa'.
+23:04:31 INFO  : 'configparams force-mem-access 1' command is executed.
+23:04:31 INFO  : Context for 'APU' is selected.
+23:04:31 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl' is done.
+23:04:32 INFO  : 'ps7_init' command is executed.
+23:04:32 INFO  : 'ps7_post_config' command is executed.
+23:04:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:04:32 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:04:32 INFO  : 'configparams force-mem-access 0' command is executed.
+23:04:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:04:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:04:32 INFO  : 'con' command is executed.
+23:04:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:04:32 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw_system/_ide/scripts/systemdebugger_uartlite_sw_system_standalone.tcl'
+23:05:24 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+23:05:35 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+23:05:47 INFO  : Disconnected from the channel tcfchan#9.
+23:05:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:05:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+23:05:47 INFO  : 'jtag frequency' command is executed.
+23:05:47 INFO  : Context for 'APU' is selected.
+23:05:47 INFO  : System reset is completed.
+23:05:50 INFO  : 'after 3000' command is executed.
+23:05:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+23:05:52 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+23:05:52 INFO  : Context for 'APU' is selected.
+23:05:52 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa'.
+23:05:52 INFO  : 'configparams force-mem-access 1' command is executed.
+23:05:52 INFO  : Context for 'APU' is selected.
+23:05:52 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl' is done.
+23:05:52 INFO  : 'ps7_init' command is executed.
+23:05:52 INFO  : 'ps7_post_config' command is executed.
+23:05:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:05:52 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:05:52 INFO  : 'configparams force-mem-access 0' command is executed.
+23:05:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:05:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:05:52 INFO  : 'con' command is executed.
+23:05:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:05:52 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw_system/_ide/scripts/systemdebugger_uartlite_sw_system_standalone.tcl'
+23:06:36 INFO  : Checking for BSP changes to sync application flags for project 'uartlite_sw'...
+23:06:50 INFO  : Disconnected from the channel tcfchan#11.
+23:06:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:06:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+23:06:50 INFO  : 'jtag frequency' command is executed.
+23:06:50 INFO  : Context for 'APU' is selected.
+23:06:51 INFO  : System reset is completed.
+23:06:54 INFO  : 'after 3000' command is executed.
+23:06:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+23:06:55 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit"
+23:06:55 INFO  : Context for 'APU' is selected.
+23:06:55 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa'.
+23:06:55 INFO  : 'configparams force-mem-access 1' command is executed.
+23:06:55 INFO  : Context for 'APU' is selected.
+23:06:55 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl' is done.
+23:06:55 INFO  : 'ps7_init' command is executed.
+23:06:55 INFO  : 'ps7_post_config' command is executed.
+23:06:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:55 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:06:55 INFO  : 'configparams force-mem-access 0' command is executed.
+23:06:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/bitstream/subsystem_db_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite/export/uartlite/hw/subsystem_db_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw/Debug/uartlite_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:06:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:55 INFO  : 'con' command is executed.
+23:06:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:06:55 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/uart_lite/software/uartlite_sw_system/_ide/scripts/systemdebugger_uartlite_sw_system_standalone.tcl'
+23:09:32 INFO  : Disconnected from the channel tcfchan#13.

@@ -1,0 +1,11 @@
+**/build/*
+!**/build/.gitkeep
+
+**/Packages/
+
+**/software/*
+!**/software/*
+**/software/*/*
+!**/software/*/
+**/software/*/src/
+!**/software/*/src/

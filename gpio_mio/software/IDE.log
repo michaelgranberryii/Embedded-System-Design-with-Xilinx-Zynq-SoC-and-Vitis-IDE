@@ -1,0 +1,364 @@
+11:47:41 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/IDE.log'.
+11:49:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/temp_xsdb_launch_script.tcl
+11:49:22 INFO  : Registering command handlers for Vitis TCF services
+11:49:23 INFO  : Platform repository initialization has completed.
+11:49:26 INFO  : XSCT server has started successfully.
+11:49:28 INFO  : Successfully done setting XSCT server connection channel  
+11:49:28 INFO  : plnx-install-location is set to ''
+11:49:28 INFO  : Successfully done query RDI_DATADIR 
+11:49:28 INFO  : Successfully done setting workspace for the tool. 
+11:50:46 INFO  : Result from executing command 'getProjects': mio_gpio
+11:50:46 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:51:10 INFO  : Result from executing command 'getProjects': mio_gpio
+11:51:10 INFO  : Result from executing command 'getPlatforms': mio_gpio|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/mio_gpio.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:53:02 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+11:54:55 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+11:56:51 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+11:56:58 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:00:51 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:02:51 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:08:20 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:11:29 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:12:48 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:13:35 INFO  : XRT server has started successfully on port '4352'
+12:13:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:13:36 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+12:13:36 INFO  : 'jtag frequency' command is executed.
+12:13:36 INFO  : Context for 'APU' is selected.
+12:13:36 INFO  : System reset is completed.
+12:13:39 INFO  : 'after 3000' command is executed.
+12:13:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+12:13:40 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+12:13:40 INFO  : Context for 'APU' is selected.
+12:13:40 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+12:13:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:13:40 INFO  : Context for 'APU' is selected.
+12:13:40 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+12:13:41 INFO  : 'ps7_init' command is executed.
+12:13:41 INFO  : 'ps7_post_config' command is executed.
+12:13:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:13:41 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:13:41 INFO  : 'configparams force-mem-access 0' command is executed.
+12:13:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:13:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:13:41 INFO  : 'con' command is executed.
+12:13:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:13:41 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+12:16:53 INFO  : Disconnected from the channel tcfchan#8.
+12:16:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:16:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+12:16:53 INFO  : 'jtag frequency' command is executed.
+12:16:53 INFO  : Context for 'APU' is selected.
+12:16:53 INFO  : System reset is completed.
+12:16:56 INFO  : 'after 3000' command is executed.
+12:16:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+12:16:58 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+12:16:58 INFO  : Context for 'APU' is selected.
+12:16:58 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+12:16:58 INFO  : 'configparams force-mem-access 1' command is executed.
+12:16:58 INFO  : Context for 'APU' is selected.
+12:16:58 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+12:16:58 INFO  : 'ps7_init' command is executed.
+12:16:58 INFO  : 'ps7_post_config' command is executed.
+12:16:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:16:58 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:16:58 INFO  : 'configparams force-mem-access 0' command is executed.
+12:16:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:16:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:16:58 INFO  : 'con' command is executed.
+12:16:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:16:58 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+12:17:48 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:18:55 INFO  : Disconnected from the channel tcfchan#9.
+12:18:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:18:55 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+12:18:55 INFO  : 'jtag frequency' command is executed.
+12:18:55 INFO  : Context for 'APU' is selected.
+12:18:55 INFO  : System reset is completed.
+12:18:58 INFO  : 'after 3000' command is executed.
+12:18:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+12:19:00 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+12:19:00 INFO  : Context for 'APU' is selected.
+12:19:00 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+12:19:00 INFO  : 'configparams force-mem-access 1' command is executed.
+12:19:00 INFO  : Context for 'APU' is selected.
+12:19:00 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+12:19:00 INFO  : 'ps7_init' command is executed.
+12:19:00 INFO  : 'ps7_post_config' command is executed.
+12:19:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:19:00 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:19:00 INFO  : 'configparams force-mem-access 0' command is executed.
+12:19:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:19:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:19:00 INFO  : 'con' command is executed.
+12:19:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:19:00 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+12:24:32 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:27:53 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:28:02 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:28:14 INFO  : Disconnected from the channel tcfchan#11.
+12:28:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:28:14 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+12:28:14 INFO  : 'jtag frequency' command is executed.
+12:28:14 INFO  : Context for 'APU' is selected.
+12:28:14 INFO  : System reset is completed.
+12:28:17 INFO  : 'after 3000' command is executed.
+12:28:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+12:28:19 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+12:28:19 INFO  : Context for 'APU' is selected.
+12:28:19 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+12:28:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:28:19 INFO  : Context for 'APU' is selected.
+12:28:19 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+12:28:19 INFO  : 'ps7_init' command is executed.
+12:28:19 INFO  : 'ps7_post_config' command is executed.
+12:28:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:28:19 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:28:19 INFO  : 'configparams force-mem-access 0' command is executed.
+12:28:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:28:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:28:19 INFO  : 'con' command is executed.
+12:28:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:28:19 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+12:45:00 INFO  : Hardware specification for platform project 'mio_gpio' is updated.
+12:45:14 INFO  : Result from executing command 'getProjects': mio_gpio
+12:45:14 INFO  : Result from executing command 'getPlatforms': mio_gpio|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/mio_gpio.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+12:55:44 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:55:47 INFO  : The hardware specification used by project 'mio_gpio_sw' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+12:55:47 INFO  : The file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit' stored in project is removed.
+12:55:47 INFO  : The updated bitstream files are copied from platform to folder '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream' in project 'mio_gpio_sw'.
+12:55:47 INFO  : The file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' stored in project is removed.
+12:55:52 INFO  : The updated ps init files are copied from platform to folder '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit' in project 'mio_gpio_sw'.
+12:56:55 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+12:59:21 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+13:00:26 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+13:00:49 INFO  : Disconnected from the channel tcfchan#14.
+13:00:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:00:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+13:00:50 INFO  : 'jtag frequency' command is executed.
+13:00:50 INFO  : Context for 'APU' is selected.
+13:00:50 INFO  : System reset is completed.
+13:00:53 INFO  : 'after 3000' command is executed.
+13:00:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+13:00:54 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+13:00:54 INFO  : Context for 'APU' is selected.
+13:00:54 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+13:00:54 INFO  : 'configparams force-mem-access 1' command is executed.
+13:00:54 INFO  : Context for 'APU' is selected.
+13:00:54 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+13:00:54 INFO  : 'ps7_init' command is executed.
+13:00:54 INFO  : 'ps7_post_config' command is executed.
+13:00:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:00:54 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:00:54 INFO  : 'configparams force-mem-access 0' command is executed.
+13:00:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:00:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:00:55 INFO  : 'con' command is executed.
+13:00:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:00:55 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+13:01:35 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+13:01:53 INFO  : Disconnected from the channel tcfchan#20.
+13:01:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:01:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+13:01:53 INFO  : 'jtag frequency' command is executed.
+13:01:53 INFO  : Context for 'APU' is selected.
+13:01:53 INFO  : System reset is completed.
+13:01:56 INFO  : 'after 3000' command is executed.
+13:01:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+13:01:57 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+13:01:57 INFO  : Context for 'APU' is selected.
+13:01:57 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+13:01:57 INFO  : 'configparams force-mem-access 1' command is executed.
+13:01:57 INFO  : Context for 'APU' is selected.
+13:01:57 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+13:01:57 INFO  : 'ps7_init' command is executed.
+13:01:57 INFO  : 'ps7_post_config' command is executed.
+13:01:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:01:58 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:01:58 INFO  : 'configparams force-mem-access 0' command is executed.
+13:01:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:01:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:01:58 INFO  : 'con' command is executed.
+13:01:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:01:58 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+13:07:22 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+13:07:36 INFO  : Checking for BSP changes to sync application flags for project 'mio_gpio_sw'...
+13:07:53 INFO  : Disconnected from the channel tcfchan#22.
+13:07:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:07:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+13:07:53 INFO  : 'jtag frequency' command is executed.
+13:07:53 INFO  : Context for 'APU' is selected.
+13:07:53 INFO  : System reset is completed.
+13:07:56 INFO  : 'after 3000' command is executed.
+13:07:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+13:07:57 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+13:07:57 INFO  : Context for 'APU' is selected.
+13:07:57 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa'.
+13:07:57 INFO  : 'configparams force-mem-access 1' command is executed.
+13:07:57 INFO  : Context for 'APU' is selected.
+13:07:57 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+13:07:58 INFO  : 'ps7_init' command is executed.
+13:07:58 INFO  : 'ps7_post_config' command is executed.
+13:07:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:07:58 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:07:58 INFO  : 'configparams force-mem-access 0' command is executed.
+13:07:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio/export/mio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw/Debug/mio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:07:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:07:58 INFO  : 'con' command is executed.
+13:07:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:07:58 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_mio/software/mio_gpio_sw_system/_ide/scripts/systemdebugger_mio_gpio_sw_system_standalone.tcl'
+13:08:33 INFO  : Disconnected from the channel tcfchan#24.

@@ -1,0 +1,380 @@
+14:26:05 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/IDE.log'.
+14:26:09 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/temp_xsdb_launch_script.tcl
+14:26:09 INFO  : Registering command handlers for Vitis TCF services
+14:26:09 INFO  : Platform repository initialization has completed.
+14:26:11 INFO  : XSCT server has started successfully.
+14:26:11 INFO  : plnx-install-location is set to ''
+14:26:11 INFO  : Successfully done setting XSCT server connection channel  
+14:26:11 INFO  : Successfully done setting workspace for the tool. 
+14:26:11 INFO  : Successfully done query RDI_DATADIR 
+14:27:04 INFO  : Result from executing command 'getProjects': emio_gpio
+14:27:04 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:27:25 INFO  : Result from executing command 'getProjects': emio_gpio
+14:27:25 INFO  : Result from executing command 'getPlatforms': emio_gpio|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/emio_gpio.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:29:25 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:31:13 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:31:30 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:32:21 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:32:32 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:34:44 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:35:24 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:41:26 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:44:52 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:45:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:13 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+14:45:13 INFO  : 'jtag frequency' command is executed.
+14:45:13 INFO  : Context for 'APU' is selected.
+14:45:13 INFO  : System reset is completed.
+14:45:16 INFO  : 'after 3000' command is executed.
+14:45:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+14:45:17 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+14:45:17 INFO  : Context for 'APU' is selected.
+14:45:17 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa'.
+14:45:17 INFO  : 'configparams force-mem-access 1' command is executed.
+14:45:17 INFO  : Context for 'APU' is selected.
+14:45:17 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+14:45:18 INFO  : 'ps7_init' command is executed.
+14:45:18 INFO  : 'ps7_post_config' command is executed.
+14:45:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:18 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:45:18 INFO  : 'configparams force-mem-access 0' command is executed.
+14:45:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:45:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:18 INFO  : 'con' command is executed.
+14:45:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:45:18 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw_system/_ide/scripts/systemdebugger_emio_gpio_sw_system_standalone.tcl'
+14:45:41 INFO  : Disconnected from the channel tcfchan#10.
+14:45:42 INFO  : XRT server has started successfully on port '4355'
+14:45:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:44 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+14:45:44 INFO  : 'jtag frequency' command is executed.
+14:45:44 INFO  : Context for 'APU' is selected.
+14:45:44 INFO  : System reset is completed.
+14:45:47 INFO  : 'after 3000' command is executed.
+14:45:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+14:45:49 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+14:45:49 INFO  : Context for 'APU' is selected.
+14:45:49 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa'.
+14:45:49 INFO  : 'configparams force-mem-access 1' command is executed.
+14:45:49 INFO  : Context for 'APU' is selected.
+14:45:49 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+14:45:49 INFO  : 'ps7_init' command is executed.
+14:45:49 INFO  : 'ps7_post_config' command is executed.
+14:45:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:49 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:45:49 INFO  : 'configparams force-mem-access 0' command is executed.
+14:45:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:45:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:49 INFO  : 'con' command is executed.
+14:45:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:45:49 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw_system/_ide/scripts/systemdebugger_emio_gpio_sw_system_standalone.tcl'
+14:46:29 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:49:52 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:50:03 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:50:18 INFO  : Disconnected from the channel tcfchan#11.
+14:50:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:50:18 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+14:50:18 INFO  : 'jtag frequency' command is executed.
+14:50:18 INFO  : Context for 'APU' is selected.
+14:50:18 INFO  : System reset is completed.
+14:50:21 INFO  : 'after 3000' command is executed.
+14:50:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+14:50:23 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+14:50:23 INFO  : Context for 'APU' is selected.
+14:50:23 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa'.
+14:50:23 INFO  : 'configparams force-mem-access 1' command is executed.
+14:50:23 INFO  : Context for 'APU' is selected.
+14:50:23 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+14:50:23 INFO  : 'ps7_init' command is executed.
+14:50:23 INFO  : 'ps7_post_config' command is executed.
+14:50:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:50:23 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:50:23 INFO  : 'configparams force-mem-access 0' command is executed.
+14:50:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:50:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:50:23 INFO  : 'con' command is executed.
+14:50:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:50:23 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw_system/_ide/scripts/systemdebugger_emio_gpio_sw_system_standalone.tcl'
+14:51:47 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:51:58 INFO  : Disconnected from the channel tcfchan#14.
+14:51:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:51:59 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+14:51:59 INFO  : 'jtag frequency' command is executed.
+14:51:59 INFO  : Context for 'APU' is selected.
+14:51:59 INFO  : System reset is completed.
+14:52:02 INFO  : 'after 3000' command is executed.
+14:52:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+14:52:03 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+14:52:03 INFO  : Context for 'APU' is selected.
+14:52:03 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa'.
+14:52:03 INFO  : 'configparams force-mem-access 1' command is executed.
+14:52:03 INFO  : Context for 'APU' is selected.
+14:52:03 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+14:52:03 INFO  : 'ps7_init' command is executed.
+14:52:03 INFO  : 'ps7_post_config' command is executed.
+14:52:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:03 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:52:03 INFO  : 'configparams force-mem-access 0' command is executed.
+14:52:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:52:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:04 INFO  : 'con' command is executed.
+14:52:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:52:04 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw_system/_ide/scripts/systemdebugger_emio_gpio_sw_system_standalone.tcl'
+14:52:33 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:52:42 ERROR : Error while launch xterm: {}
+java.io.IOException: Cannot run program "xterm" (in directory "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1128) ~[?:?]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1071) ~[?:?]
+	at com.xilinx.ide.tools.console.OpenXBashHandler$1.run(OpenXBashHandler.java:99) ~[?:?]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4930) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4451) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[?:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:?]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) [org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:?]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80) [com.xilinx.ide.application.ui_1.0.0.202305040745.jar:?]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) [org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:340) ~[?:?]
+	at java.lang.ProcessImpl.start(ProcessImpl.java:271) ~[?:?]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1107) ~[?:?]
+	... 28 more
+14:52:42 ERROR : Error while launch konsole: {}
+java.io.IOException: Cannot run program "konsole" (in directory "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1128) ~[?:?]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1071) ~[?:?]
+	at com.xilinx.ide.tools.console.OpenXBashHandler$1.run(OpenXBashHandler.java:109) ~[?:?]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4930) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4451) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[?:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:?]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) [org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:?]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80) [com.xilinx.ide.application.ui_1.0.0.202305040745.jar:?]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) [org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:340) ~[?:?]
+	at java.lang.ProcessImpl.start(ProcessImpl.java:271) ~[?:?]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1107) ~[?:?]
+	... 28 more
+14:52:49 INFO  : Disconnected from the channel tcfchan#16.
+14:52:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:52:49 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+14:52:49 INFO  : 'jtag frequency' command is executed.
+14:52:49 INFO  : Context for 'APU' is selected.
+14:52:49 INFO  : System reset is completed.
+14:52:52 INFO  : 'after 3000' command is executed.
+14:52:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+14:52:54 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+14:52:54 INFO  : Context for 'APU' is selected.
+14:52:54 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa'.
+14:52:54 INFO  : 'configparams force-mem-access 1' command is executed.
+14:52:54 INFO  : Context for 'APU' is selected.
+14:52:54 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+14:52:54 INFO  : 'ps7_init' command is executed.
+14:52:54 INFO  : 'ps7_post_config' command is executed.
+14:52:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:54 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:52:54 INFO  : 'configparams force-mem-access 0' command is executed.
+14:52:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:52:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:54 INFO  : 'con' command is executed.
+14:52:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:52:54 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw_system/_ide/scripts/systemdebugger_emio_gpio_sw_system_standalone.tcl'
+14:53:57 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+14:54:07 INFO  : Disconnected from the channel tcfchan#17.
+14:54:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:07 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+14:54:07 INFO  : 'jtag frequency' command is executed.
+14:54:07 INFO  : Context for 'APU' is selected.
+14:54:07 INFO  : System reset is completed.
+14:54:10 INFO  : 'after 3000' command is executed.
+14:54:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+14:54:11 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit"
+14:54:11 INFO  : Context for 'APU' is selected.
+14:54:11 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa'.
+14:54:11 INFO  : 'configparams force-mem-access 1' command is executed.
+14:54:11 INFO  : Context for 'APU' is selected.
+14:54:11 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl' is done.
+14:54:12 INFO  : 'ps7_init' command is executed.
+14:54:12 INFO  : 'ps7_post_config' command is executed.
+14:54:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:54:12 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:54:12 INFO  : 'configparams force-mem-access 0' command is executed.
+14:54:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio/export/emio_gpio/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw/Debug/emio_gpio_sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:54:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:54:12 INFO  : 'con' command is executed.
+14:54:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:54:12 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/gpio_emio/software/emio_gpio_sw_system/_ide/scripts/systemdebugger_emio_gpio_sw_system_standalone.tcl'
+15:14:45 INFO  : Checking for BSP changes to sync application flags for project 'emio_gpio_sw'...
+15:15:11 INFO  : Disconnected from the channel tcfchan#18.
