@@ -9,4 +9,7 @@
 
 ## Certificate
 
-[Udemy Certificate](https://www.udemy.com/certificate/UC-cc426041-0cef-43c4-96b1-499a129aa5d1/)
+- [Udemy Certificate](https://www.udemy.com/certificate/UC-cc426041-0cef-43c4-96b1-499a129aa5d1/)
+
+## Projects Using These Skills
+- [Flight Controller - Work in Progress](https://github.com/michaelgranberryii/flight_controller)
