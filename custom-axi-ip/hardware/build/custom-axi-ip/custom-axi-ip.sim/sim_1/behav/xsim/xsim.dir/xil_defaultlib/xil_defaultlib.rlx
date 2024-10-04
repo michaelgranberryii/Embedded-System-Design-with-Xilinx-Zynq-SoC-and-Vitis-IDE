@@ -1,0 +1,7 @@
+0.7
+2020.2
+May  7 2023
+15:10:42
+/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/hardware/build/custom-axi-ip/custom-axi-ip.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,axi_vip_v1_1_14;processing_system7_vip_v1_0_16;uvm;xilinx_vip,,,,,,
+/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/hardware/sim/counter_tb.sv,1727663598,systemVerilog,,,,counter_tb,,axi_vip_v1_1_14;processing_system7_vip_v1_0_16;uvm;xilinx_vip,../../../../custom-axi-ip.gen/sources_1/bd/subsystem_bd/ipshared/aed8/hdl;../../../../custom-axi-ip.gen/sources_1/bd/subsystem_bd/ipshared/ec67/hdl;/home/mg/Xilinx/Vivado/2023.1/data/xilinx_vip/include,,,,,
+/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/hardware/src/counter.sv,1727663569,systemVerilog,,/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/hardware/sim/counter_tb.sv,,counter,,axi_vip_v1_1_14;processing_system7_vip_v1_0_16;uvm;xilinx_vip,../../../../custom-axi-ip.gen/sources_1/bd/subsystem_bd/ipshared/aed8/hdl;../../../../custom-axi-ip.gen/sources_1/bd/subsystem_bd/ipshared/ec67/hdl;/home/mg/Xilinx/Vivado/2023.1/data/xilinx_vip/include,,,,,

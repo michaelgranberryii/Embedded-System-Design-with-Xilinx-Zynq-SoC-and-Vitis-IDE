@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/subsystem_bd/ip/subsystem_bd_rst_ps7_0_50M_0/sim/subsystem_bd_rst_ps7_0_50M_0.vhd" \
+
+# Do not sort compile order
+nosort

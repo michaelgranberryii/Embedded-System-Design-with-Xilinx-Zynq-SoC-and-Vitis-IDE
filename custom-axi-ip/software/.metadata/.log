@@ -1,0 +1,277 @@
+!SESSION 2024-09-30 20:49:02.418 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/.metadata/.bak_0.log
+Created Time: 2024-09-30 21:53:03.787
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.787
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.788
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.799
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.799
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.804
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.804
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.815
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.815
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.819
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.820
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.831
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.831
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.835
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.835
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.847
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.847
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.859
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351B7A823A" && level == 0}], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.859
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.860
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.860
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.868
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.868
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.926
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:03.927
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:06.931
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:06.966
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:06.972
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351B7A823A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:06.973
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:06.986
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:06.987
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:07.013
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:07.013
+!MESSAGE XSCT Command: [fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph-sw/_ide/bitstream/subsystem_bd_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.217
+!MESSAGE XSCT command with result: [fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph-sw/_ide/bitstream/subsystem_bd_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.272
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.284
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.284
+!MESSAGE XSCT Command: [loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph/export/custom-axi-periph/hw/subsystem_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.290
+!MESSAGE XSCT command with result: [loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph/export/custom-axi-periph/hw/subsystem_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, subsystem_bd_wrapper_6]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.291
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.292
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.292
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.299
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.300
+!MESSAGE XSCT Command: [source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph-sw/_ide/psinit/ps7_init.tcl], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.301
+!MESSAGE XSCT command with result: [source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph-sw/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.302
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.540
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.540
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.548
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.549
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.555
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.555
+!MESSAGE XSCT Command: [dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph-sw/Debug/custom-axi-periph-sw.elf], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.689
+!MESSAGE XSCT command with result: [dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software/custom-axi-periph-sw/Debug/custom-axi-periph-sw.elf], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.690
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.711
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.720
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.729
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.729
+!MESSAGE XSCT Command: [con], Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-30 21:53:08.752
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-24: Launching SystemDebugger_custom-axi-periph-sw_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-30 21:53:08.753
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '6'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-30 21:53:08.753
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '6'
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 17:24:17.344
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 17:24:17.370
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 17:24:17.401
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 17:24:17.406
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 19:59:09.293
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 19:59:09.298
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 19:59:09.308
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-01 19:59:09.309
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-02 16:57:44.722
+!MESSAGE XSCT Command: [disconnect tcfchan#10], Thread: Thread-467
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-02 16:57:44.727
+!MESSAGE XSCT command with result: [disconnect tcfchan#10], Result: [null, ]. Thread: Thread-467

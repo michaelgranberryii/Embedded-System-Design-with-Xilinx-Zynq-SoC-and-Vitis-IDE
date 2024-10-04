@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../custom-axi-ip.gen/sources_1/bd/subsystem_bd/ipshared/ec67/hdl" --include "../../../../custom-axi-ip.gen/sources_1/bd/subsystem_bd/ipshared/aed8/hdl" --include "/home/mg/Xilinx/Vivado/2023.1/data/xilinx_vip/include" \
+"../../../../../../src/counter.sv" \
+"../../../../../../sim/counter_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
