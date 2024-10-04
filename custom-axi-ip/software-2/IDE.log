@@ -1,0 +1,107 @@
+16:58:41 DEBUG : Logs will be stored at '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/IDE.log'.
+16:58:46 INFO  : Launching XSCT server: xsct -n  -interactive /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/temp_xsdb_launch_script.tcl
+16:58:46 INFO  : Registering command handlers for Vitis TCF services
+16:58:46 INFO  : Platform repository initialization has completed.
+16:58:48 INFO  : XSCT server has started successfully.
+16:58:48 INFO  : plnx-install-location is set to ''
+16:58:48 INFO  : Successfully done setting XSCT server connection channel  
+16:58:48 INFO  : Successfully done query RDI_DATADIR 
+16:58:48 INFO  : Successfully done setting workspace for the tool. 
+16:59:49 INFO  : Result from executing command 'getProjects': custom-axi-periph
+16:59:49 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:00:11 INFO  : Result from executing command 'getProjects': custom-axi-periph
+17:00:11 INFO  : Result from executing command 'getPlatforms': custom-axi-periph|/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph/export/custom-axi-periph/custom-axi-periph.xpfm;xilinx_zcu102_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|/home/mg/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:04:49 INFO  : Checking for BSP changes to sync application flags for project 'custom-axi-periph-sw'...
+17:06:54 INFO  : Checking for BSP changes to sync application flags for project 'custom-axi-periph-sw'...
+17:07:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:07:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+17:07:50 INFO  : 'jtag frequency' command is executed.
+17:07:50 INFO  : Context for 'APU' is selected.
+17:07:50 INFO  : System reset is completed.
+17:07:53 INFO  : 'after 3000' command is executed.
+17:07:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+17:07:54 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/bitstream/subsystem_bd_wrapper.bit"
+17:07:54 INFO  : Context for 'APU' is selected.
+17:07:54 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph/export/custom-axi-periph/hw/subsystem_bd_wrapper.xsa'.
+17:07:54 INFO  : 'configparams force-mem-access 1' command is executed.
+17:07:54 INFO  : Context for 'APU' is selected.
+17:07:54 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/psinit/ps7_init.tcl' is done.
+17:07:55 INFO  : 'ps7_init' command is executed.
+17:07:55 INFO  : 'ps7_post_config' command is executed.
+17:07:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:07:55 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/Debug/custom-axi-periph-sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:07:55 INFO  : 'configparams force-mem-access 0' command is executed.
+17:07:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/bitstream/subsystem_bd_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph/export/custom-axi-periph/hw/subsystem_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/Debug/custom-axi-periph-sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:07:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:07:55 INFO  : 'con' command is executed.
+17:07:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:07:55 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw_system/_ide/scripts/systemdebugger_custom-axi-periph-sw_system_standalone.tcl'
+17:09:50 INFO  : Disconnected from the channel tcfchan#4.
+17:09:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:09:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A823A' is selected.
+17:09:50 INFO  : 'jtag frequency' command is executed.
+17:09:50 INFO  : Context for 'APU' is selected.
+17:09:50 INFO  : System reset is completed.
+17:09:53 INFO  : 'after 3000' command is executed.
+17:09:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}' command is executed.
+17:09:55 INFO  : Device configured successfully with "/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/bitstream/subsystem_bd_wrapper.bit"
+17:09:55 INFO  : Context for 'APU' is selected.
+17:09:55 INFO  : Hardware design and registers information is loaded from '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph/export/custom-axi-periph/hw/subsystem_bd_wrapper.xsa'.
+17:09:55 INFO  : 'configparams force-mem-access 1' command is executed.
+17:09:55 INFO  : Context for 'APU' is selected.
+17:09:55 INFO  : Sourcing of '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/psinit/ps7_init.tcl' is done.
+17:09:55 INFO  : 'ps7_init' command is executed.
+17:09:55 INFO  : 'ps7_post_config' command is executed.
+17:09:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:09:55 INFO  : The application '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/Debug/custom-axi-periph-sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:09:55 INFO  : 'configparams force-mem-access 0' command is executed.
+17:09:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A823A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A823A-13722093-0"}
+fpga -file /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/bitstream/subsystem_bd_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph/export/custom-axi-periph/hw/subsystem_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw/Debug/custom-axi-periph-sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:09:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:09:55 INFO  : 'con' command is executed.
+17:09:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:09:55 INFO  : Launch script is exported to file '/home/mg/Documents/my-projects/Embedded-System-Design-with-Xilinx-Zynq-SoC-and-Vitis-IDE/custom-axi-ip/software-2/custom-axi-periph-sw_system/_ide/scripts/systemdebugger_custom-axi-periph-sw_system_standalone.tcl'
+17:28:22 INFO  : Hardware specification for platform project 'custom-axi-periph' is updated.
